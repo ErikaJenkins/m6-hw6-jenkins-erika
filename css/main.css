@@ -1,0 +1,114 @@
+.jumbotron{
+  background-color: purple;
+}
+
+main{
+  width: 95%;
+  padding-left: 29%;
+
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 60%;
+}
+
+h3{
+  text-align: center;
+  color: purple;
+  margin-bottom: 3%;
+}
+
+#myBtnRed {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border: 8px solid grey;
+  border-radius: 5px;
+}
+
+#myBtnBlue {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border: 8px solid grey;
+  border-radius: 5px;
+}
+
+#myBtnGreen {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border: 8px solid grey;
+  border-radius: 5px;
+}
+
+.myBtnRed:hover {
+  background-color: pink;
+}
+
+
+p{
+text-align: center;
+color: white;
+font-size: 3em;
+font-weight: bold;
+line-height: 60%;
+}
+
+.myRedMessage {
+  display: none;
+}
+
+.myBlueMessage {
+  display: none;
+}
+
+.myGreenMessage {
+  display: none;
+}
+
+.myColorAll {
+  height: 200px;
+  width: 800px;
+  background-color: yellow !important; 
+}
+
+.show-myRedMessage {
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: 10%;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 90%;
+}
+
+.show-myBlueMessage {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  margin: 7%;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 90%;
+}
+
+.show-myGreenMessage {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  margin: 4%;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 90%;
+}
